@@ -1,3 +1,10 @@
+# CHANGELOG
+
+## [2.0.1] - 2022-08-30
+
+- Added null safety
+- Fixed row couldn't print long text perfectly
+
 ## [1.0.0]
 
 - `Ticket` class replaced by `Generator`.
