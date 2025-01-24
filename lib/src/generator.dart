@@ -739,7 +739,7 @@ class Generator {
     List<int> bytes = [];
     int n = len ?? _maxCharsPerLine ?? _getMaxCharsPerLine(_styles.fontType);
     String ch1 = ch.length == 1 ? ch : ch[0];
-    bytes += text(List.filled(n, ch1).join(), linesAfter: linesAfter);
+    bytes += text(List.filled(n, ch1).join(), styles: PosStyles(underline: false), linesAfter: linesAfter);
     return bytes;
   }
 
